@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scoreboard</title>
+    <link rel="stylesheet" href="app.css">
+</head>
+<body>
+    <!--container-->
+    <div class="container">
+
+        <div class="scoreboard">
+            <!--home team-->
+            <h3>HOME</h3>
+
+            <div class="score-bg">
+
+                <div class="center-score">
+
+                    <div class="home-score"> 
+                        <h2 id="score-id">0</h2> 
+                    </div>
+
+                </div>
+                
+            </div>
+            <!--score buttons-->
+            <div class="scores">
+                <button id="add-one" onclick="addone()">+1</button>
+                <button id="add-two" onclick="addtwo()">+2</button>
+                <button id="add-three" onclick="addthree()">+3</button>
+            </div>
+            
+
+        </div>
+
+        <div class="gap">
+            <h1>-</h1>
+            <p class="reset-btn" id="reset" onclick="reset()" >RESET</p>
+            
+        </div>
+        <div class="scoreboard">
+            <!--away team-->
+
+            <h3>GUEST</h3>
+
+            <div class="score-bg">
+
+                <div class="center-score">
+
+                    <div class="guest-score">
+                        <h2 id="score-idaway">0</h2>
+                    </div>
+
+                </div>
+               
+                
+            </div>
+            <!--score buttons-->
+            <div class="scores">
+                <button id="add-oneaway" onclick="addoneaway()">+1</button>
+                <button id="add-twoaway" onclick="addtwoaway()">+2</button>
+                <button id="add-threeaway" onclick="addthreeaway()">+3</button>
+            </div>
+
+        </div>
+
+
+
+    </div>
+    
+<!--end of container-->
+
+
+    <script src="main.js"></script>
+</body>
+</html>

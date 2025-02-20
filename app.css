@@ -1,0 +1,138 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-image: url(saa.jpg);
+    height: 100dvh;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    backdrop-filter: blur(2px);
+
+}
+.scoreboard{
+    margin-top: 1px;
+}
+h3{
+    color: #fff;
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    background: transparent;
+    width: 575px;
+    height: 385px;
+    align-content: center;
+    margin: 0 auto;
+    border-radius: 10px;
+    margin-top:100px;
+    border: solid 2px #828282;
+    box-shadow: 0 0 0 50px rgba(0, 0, 0, 0.3);    
+    outline: 2px solid#b37474;
+    transition: box-shadow 0.3s ease;
+}
+.container:hover {
+    box-shadow: 0 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+.score-bg{
+    backdrop-filter: blur(2px);
+    background: rgba(0, 0, 0, 0.3);
+    width: 155px;
+    height: 120px;
+    padding: 10px;
+    margin-bottom: 30px;
+    margin-left: 20px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    border-radius: 10px;
+
+}
+.center-score{
+    justify-content: center;
+    align-items: center;
+    margin-left: px;
+    font-size: 50px;
+}
+.home-score{
+    color: #e2c6cb;
+    width: 50px;
+}
+.guest-score{
+    color:  #e2c6cb;
+    width: 50px;
+}
+.home-score:hover{
+    color: #080304;
+    transition: .3s ease;
+} 
+.guest-score:hover{
+    color: #080304;
+    transition: .2s ease;
+}
+.scores{
+    display: flex;
+    width: 155px;
+    margin-left: 20px;
+    height: 45px;
+    justify-content: space-around;
+    align-items: center;
+}
+button{
+    background:transparent;
+    border:solid #666666;
+    border-radius: 2px;
+    color: #fdfdfd7a;
+    width: 50px;
+    line-height: 30px;
+    font-size: 20px;
+    justify-content: space-around;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+button:hover{
+    background-color: #b9b9b9;
+    color: #1B244A;
+    transition: .3s ease-in-out;
+    color: #1B244A;
+}
+.gap{
+    margin-top: 80px;
+    display: block;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+
+}
+.reset-btn{
+    margin-top: 200px;
+    font-weight: bold;
+    font-size: 40px;
+    display: flex;
+    color: black;
+    background: transparent;
+   justify-content: flex-end;
+    border: none;
+    cursor: pointer;
+  
+    
+}
+.reset-btn:hover{
+    color: red;
+    
+    
+}
